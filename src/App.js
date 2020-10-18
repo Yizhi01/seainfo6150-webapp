@@ -22,7 +22,7 @@ function App() {
     }
   }, [fetchedData]);
 
-  return isEmpty(fetchedData) ? null : (
+  return isEmpty(fetchedData) ? (<div>You have no data!</div>) : (
     <div className="App">
       <Switch>
         <Route path="/dynamicarticle">
