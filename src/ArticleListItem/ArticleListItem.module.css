@@ -1,0 +1,19 @@
+.article_item {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(205, 92, 92), white 15%);
+    box-shadow: 5px 10px 20px grey;
+}
+
+.article_item h2 {
+    margin: auto 0;
+    color: rgb(220, 20, 60);
+    font-size: 36px;
+}
+
+.article_item time {
+    font-weight: bold;
+}
