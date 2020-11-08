@@ -10,3 +10,21 @@
   list-style-type: none;
   padding: 15px;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+} 
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} 
+
+@media (min-width: 1600px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+} 

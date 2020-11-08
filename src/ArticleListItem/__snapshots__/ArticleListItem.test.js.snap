@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleListItem tests renders correctly after button is clicked 1`] = `
+<div>
+  <li
+    class="container"
+  >
+    <article
+      class="article"
+    >
+      <div
+        class="wrapper"
+      >
+        <h2
+          class="title"
+        >
+          Test
+        </h2>
+        <div
+          class="text"
+        >
+          <p />
+          <time
+            class="time"
+          />
+        </div>
+      </div>
+      <button
+        class="button"
+      >
+        Show less
+      </button>
+    </article>
+  </li>
+</div>
+`;
